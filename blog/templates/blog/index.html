@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    MY Blog
+{% endblock %}
+{% block css_file %}
+    <link rel="stylesheet" href="{% static "blog/index.css" %}">
+
+{% endblock %}
+
+{% block content %}
+      <header id="main-navigation">
+          <h1> <a href="">Abenezer Blog</a></h1>
+      <nav>
+          <a href="">All Posts</a>
+      </nav>
+    </header>
+
+{#    <h1>Welcome to my blog</h1>#}
+    <section id="welcome">
+    <header>
+        <img src="{%static "blog/images/Abenezer.jpg"  %}" alt="Abenezer - the Autor of This Blog" />
+        <h2>Abenezer's Blog</h2>
+
+    </header>
+    <p>HI,I an Abenezer and I love to blog about tech and the world!</p>
+    </section>
+    <section id="latest-posts">
+    <h2>MY Latest Thoughts</h2>
+    <ul>
+        <li>
+            <article class="post">
+                <a href="">
+                    <img src="{% static "blog/images/mountains.jpg" %}" alt="Mountain hiking"/>
+                    <div class="post__content">
+                        <h3>Mountiain Hiking</h3>
+                        <p> The Simien Mountains are Ethiopia's most popular trekking destination.
+                            The typical trekking route involves 3 nights camping in the mountains,
+                            but there's ample opportunity for day trips or longer hikes depending
+                            on your fitness level and wider interests.
+                        </p>
+                    </div>
+                </a>
+
+            </article>
+        </li>
+    </ul>
+
+    </section>
+<section id="about" >
+<h2>What I Do</h2>
+<p>
+    I love Programing,
+</p>
+<P>
+    my goal is to keep on growing a developer - and if
+</P>
+</section>
+{% endblock %}
