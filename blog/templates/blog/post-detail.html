@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+    This block Title
+{% endblock %}
+{% block css_file %}
+    <link rel="stylesheet" href="{% static "blog/post-detail.css" %}">
+
+
+
+{% endblock %}
+
+{% block content %}
+    <section id="summary">
+    <h2>post title</h2>
+    <article>
+        <img src="{% static "blog/images/mountains.jpg" %}" alt="Post Title" />
+        <address> By Abenezer</address>
+        <div>
+            Last updated on <time> November 16</time>
+
+        </div>
+    </article>
+    </section>
+    <main>
+    <p>
+        The QuillBot's Paraphraser is fast, free, and easy to use,
+        making it the best paraphrasing tool on the market.
+        You can compare results from 8 predefined modes and
+        use the remarkable Custom mode to define and create an unlimited number of Custom modes.
+    </p>
+     <p>
+        The QuillBot's Paraphraser is fast, free, and easy to use,
+        making it the best paraphrasing tool on the market.
+        You can compare results from 8 predefined modes and
+        use the remarkable Custom mode to define and create an unlimited number of Custom modes.
+    </p>
+     <p>
+        The QuillBot's Paraphraser is fast, free, and easy to use,
+        making it the best paraphrasing tool on the market.
+        You can compare results from 8 predefined modes and
+        use the remarkable Custom mode to define and create an unlimited number of Custom modes.
+    </p>
+    </main>
+{% endblock %}
