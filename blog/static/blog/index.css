@@ -1,5 +1,5 @@
 #welcome {
-  background: linear-gradient(to right top, #382e1b, #574f4e);
+  background:linear-gradient(90deg, rgba(65,0,155,1) 5%, rgba(65,0,155,1) 32%, rgba(62,62,76,1) 94%);
   padding: 6rem 12%;
 }
 
@@ -14,7 +14,7 @@
   height: 10rem;
   object-fit: cover;
   object-position: top;
-  border: 5px solid white;
+  border: 5px solid brown;
   border-radius: 12px;
   background-color: #ffe1bf;
   transform: rotateZ(-5deg);
