@@ -2,14 +2,13 @@
 
 <li>
             <article class="post">
-                <a href="{% url "post-detail-page" slug="the-mom"%}">
-                    <img src="{% static "blog/images/mountains.jpg" %}" alt="Mountain hiking"/>
+                <a href="{% url "post-detail-page" slug=post.slug%}">
+                    <img src="{% static "blog/images/"|add:post.image %}" alt={{ post.title}}/>
                     <div class="post__content">
-                        <h3>Mountiain Hiking</h3>
-                        <p> The Simien Mountains are Ethiopia's most popular trekking destination.
-                            The typical trekking route involves 3 nights camping in the mountains,
-                            but there's ample opportunity for day trips or longer hikes depending
-                            on your fitness level and wider interests.
+                        <h3>{{ post.title }}</h3>
+
+                        <p>
+                            {{ post.excerpt }}
                         </p>
                     </div>
                 </a>
