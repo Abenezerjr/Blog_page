@@ -1,5 +1,7 @@
 #welcome {
-  background: linear-gradient(to right top, #6305dd, #390281);
+  /*background: linear-gradient(to right top, #6305dd, #390281);*/
+
+  background: linear-gradient(90deg, rgba(14,12,46,1) 3%, rgba(21,40,93,1) 49%, rgba(18,61,120,1) 100%);
   padding: 6rem 12%;
 }
 
@@ -26,6 +28,7 @@
   margin: 0 0 0 2rem;
   color: #e4e4e4;
   width: 10rem;
+  animation: leftSideAni 6s ease forwards  infinite;
 }
 
 #welcome p {
@@ -61,7 +64,7 @@
 #about {
   text-align: center;
   padding: 3rem;
-  background-color: #e48900;
+  background-color: #243852;
   margin-top: 5rem;
 }
 
@@ -72,4 +75,24 @@
 #about p {
   font-size: 1.5rem;
   color: #353535;
+}
+@keyframes leftSideAni {
+    0% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes SocialAni {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }

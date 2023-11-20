@@ -46,3 +46,17 @@ h3 {
 #main-navigation h1 a:active {
   color: white;
 }
+#main-navigation h4 a{
+  animation: SocialAni 2s ease forwards
+
+}
+@keyframes SocialAni {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
