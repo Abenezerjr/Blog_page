@@ -1,0 +1,58 @@
+
+body{
+background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+
+#main-navigation {
+  background: linear-gradient(90deg, rgba(14,12,46,1) 3%, rgba(21,40,93,1) 49%, rgba(18,61,120,1) 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+#stored-posts{
+  margin: 8rem auto 1rem auto;
+  padding: 2rem;
+  width: 90%;
+  /*max-width: 50rem;*/
+}
+
+#stored-posts ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#stored-posts li{
+
+  padding: -2rem;
+  margin: 1rem 0;
+   border-radius:15px ;
+  box-shadow: 0 2px 15px rgb(0,0,0,0.25);
+  border: white;
+  width: 90%;
+  max-width: 40rem
+}
+#stored-posts a {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  text-decoration: none;
+  color: orangered;
+  font-weight: bold;
+}
+#stored-posts li:hover,
+#stored-posts li:active{
+  transform: scale(1.1);
+  background-color: #1a1525;
+
+
+
+}
+#stored-posts a img {
+  width : 6rem;
+  height: 6rem;
+  border-radius: 12px;
+  transform: rotateZ(0deg);
+  border: 5px solid white;
+  margin-left: 25rem;
+
+  max-width: 100%;
+}
