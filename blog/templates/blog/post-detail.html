@@ -45,7 +45,7 @@
         <img src="{{ post.image.url }}" alt={{ post.title}} />
         <address> By <a href="{{ post.author.email_address }}"> {{post.author |title }}</a></address>
         <div>
-            Last updated on <time> {{ post.date|date:"d M Y" }}</time>
+            Last updated on <time> {{ post.date|date:"d M Y " }}</time>
 
         </div>
     </article>
@@ -53,18 +53,23 @@
 
     <main>
    {{ post.content| linebreaks }}
+{#    <img src="{{ post.image.url }}" alt={{ ""}} />#}
     </main>
+
     <section id="comments">
      <ul>
          {% for comment in comments %}
          <li>
-             <h2>{{ comment.user_name }}</h2>
+             <h4>{{ comment.user_name }}</h4>
+             <h5>{{ comment.date }}</h5>
              <p>{{ comment.text|linebreaks }}</p>
          </li>
          {% endfor %}
      </ul>
     </section>
     <section id="comment-form">
+
+     <img id="th" src="{% static "blog/images/comment.png" %}" alt=""/>
     <h3>Your Comment</h3>
     <form action="{% url "post-detail-page" post.slug %}" method="POST" >
     {% csrf_token %}
@@ -75,7 +80,7 @@
             {{ form_filed.errors }}
         </div>
         {% endfor %}
-        <button>Save</button>
+       <button class="button-89" role="button">Save</button>
 
     </form>
 
