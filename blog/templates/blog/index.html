@@ -16,14 +16,66 @@
 {#    <h1>Welcome to my blog</h1>#}
     <section id="welcome">
     <header>
-        <img src="{%static "blog/images/Abenezer.jpg"  %}" alt="Abenezer - the Autor of This Blog" />
-        <h2>Abenezer's Blog</h2>
+        <img src="{%static "blog/images/abeni.png"  %}" alt="Abenezer - the Autor of This Blog" />
+        <h2>𝙰𝚋𝚎𝚗𝚎𝚣𝚎𝚛'𝚜 𝙱𝚕𝚘𝚐</h2>
 
     </header>
-    <p>HI,I am Abenezer and I love to blog about tech and the world!</p>
+    <p>𝐻𝐼,𝐼 𝒶𝓂 𝒜𝒷𝑒𝓃𝑒𝓏𝑒𝓇 𝒶𝓃𝒹 𝐼 𝓁𝑜𝓋𝑒 𝓉𝑜 𝒷𝓁𝑜𝑔 𝒶𝒷𝑜𝓊𝓉 𝓉𝑒𝒸𝒽 𝒶𝓃𝒹 𝓉𝒽𝑒 𝓌𝑜𝓇𝓁𝒹!</p>
     </section>
-    <section id="latest-posts">
-    <h2>MY Latest Thoughts</h2>
+    <div class="container">
+  <div class="box">
+    <div class="imgBx">
+      <img src="{% static "blog/images/python1.jpg" %}">
+    </div>
+    <div class="content">
+      <div>
+        <h2>Image Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="{% static "blog/images/web3.0.jpg" %}">
+    </div>
+    <div class="content">
+      <div>
+        <h2>Image Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus molestias quidem iusto.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="{% static "blog/images/ai.png" %}">
+    </div>
+    <div class="content">
+      <div>
+        <h2>Image Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Commodi accusamus molestias quidem iusto.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="{% static "blog/images/possibility.png" %}">
+    </div>
+    <div class="content">
+      <div>
+        <h2>Image Title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Commodi accusamus molestias quidem iusto.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+    <section  id="latest-posts">
+    <h2>█▓▒▒░░░𝙼𝚢 𝙻𝚊𝚝𝚎𝚜𝚝 𝚃𝚑𝚘𝚞𝚐𝚑𝚝𝚜░░░▒▒▓█</h2>
     <ul>
         {% for post in posts %}
          {% include "blog/includes/post.html" %}
@@ -31,49 +83,44 @@
 
 
     </ul>
-
     </section>
-    <section class='FlexContainer'>
-            <div>
-                <h2>pythonon</h2>
-                <p>Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years</p>
-            </div>
-            <div><h2>pythonon</h2>
-                <p>Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years</p></div>
-            <div><h2>pythonon</h2>
-                <p>Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years</p></div>
-        </section>
+    <div class="gpt3">
+
+     <img id="img2" src="{% static 'blog/images/ai.png'%}" alt="">
+
+    <div class="gpt3_content">
+      <h4>should be worried by AI?</h4>
+      <h1 class="gradient_text">The possibilities are <br /> beyond your imagination</h1>
+      <p>While programmers definitely should not fear AI,
+          they should stay abreast of trends and collaborate
+          closely with itAI will not replace people; rather,
+          those who can efficiently use AI will replace
+          those who do not want to or cannot do so1.</p>
+      <h3> </h3>
+
+    </div>
+  </div>
+      <div class="DSA">
+
+     <img id="img3" src="{% static 'blog/images/dsa1.png'%}" alt="">
+
+    <div class="DSA_content">
+      <h4>Software engineering is not only a skill, but also an art !</h4>
+        <h1 class="gradient_text">“The greatest software is not built overnight; it’s crafted with patience and dedication"<h5>:Programmer World</h5></h1>
+      <p>While programmers definitely should not fear AI,
+          they should stay abreast of trends and collaborate
+          closely with itAI will not replace people; rather,
+          those who can efficiently use AI will replace
+          those who do not want to or cannot do so1.</p>
+      <h3>Ask GPT 3.5 Any Thing </h3>
+
+    </div>
+  </div>
+
+    <h3 class="learn"> How to Learn programing language ?</h3>
 
 
-            <img id="th" src="{% static "blog/images/th.png" %}" alt=""/>
 
-     <div class="FlexContainer2">
-         <h2>my preference</h2>
-
-                <p>Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years
-                    Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years
-                </p>
-     </div>
 
     <section class='FlexContainer4'>
             <div>
@@ -105,82 +152,10 @@
         </section>
 
 
-           <img id="th2" src="{% static "blog/images/th2.png" %}" alt=""/>
-
-
-    <div class="FlexContainer3">
-         <h2>my preference</h2>
-
-                <p>Hello! I'm Abenezer Alemayhu, a dedicated
-                    and passionate software engineer with a
-                    strong commitment to the craft.
-                    I have a deep love for coding
-                    and have been in the field for several years</p></div>
 
 
 
- <div id="about" >
- 
-<div class="parent">
-    <div class="div1">
-        <ul>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-</ul>
-    </div>
-    <div class="div2">
-        <ul>
-            <h3>Resources</h3>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-</ul>
-    </div>
-    <div class="div3">
-        <ul>
-             <h3>subjects</h3>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-            <li>Coffee</li>
-            <li>Tea</li>
-            <li>Milk</li>
-</ul>
-    </div>
 
 
-<div class="vl"></div>
-
-
-    <div class="div4">
-    <ul>
-         <h3>Languages</h3>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-</ul></div>
-    <div class="div5">
-    <ul>
-         <h3>Contact me</h3>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-        </ul>
-    </div>
-</div>
-</div>
 {% endblock %}
 
