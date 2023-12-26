@@ -12,6 +12,7 @@ This is a fully functional blog developed using Django and Bootstrap, featuring 
 - **Bootstrap Styling:** Stylishly designed frontend using Bootstrap.
 -**Authentication:** user register and login
 -**Session:** user add read later  store
+ -**Animation** some Animation for ux 
 -**And MORE...** 
 ## Installation
 
