@@ -224,7 +224,7 @@ background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1
 /*addd*/
 .container {
   position: relative;
-  width: 1160px;
+  max-width: 1360px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -234,7 +234,7 @@ background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1
 }
 .container .box {
   position: relative;
-  width: 275px;
+  width: 250px;
   height: 275px;
   background: #000;
   transition: 0.5s;

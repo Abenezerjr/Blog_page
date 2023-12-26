@@ -1,5 +1,5 @@
 from django.db import models
-from django.core.validators import MinLengthValidator
+from django.core.validators import MinLengthValidator, FileExtensionValidator
 
 
 # Create your models here.
