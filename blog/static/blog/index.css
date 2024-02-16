@@ -334,11 +334,7 @@ background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1
     flex-direction: row;
 }
 
-/*.gpt3 div {*/
-/*    width: 400px;*/
-/*    height: 400px;*/
-/*    margin: 50px;*/
-/*    max-width: 90%;*/
+
 
 
 
@@ -352,39 +348,7 @@ background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1
     margin-right: 500px;
 
 }
-.gpt3_content{
-    width: 600px;
-    height: 600px;
-    margin-left: 900px;
-    margin-top: -500px;
 
-}
-
-.gpt3_content h4{
-    color: #71E5FF;
-    font-size: 20px;
-}
-.gpt3_content h1{
-    font-size: 32px;
-      background: #539a8e;
-background: linear-gradient(to right, #2339af 0%, #c26e6c 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
-.gpt3_content p{
-    color: white;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-size: 16px;
-}
-.gpt3_content h3{
-    color: #71E5FF;
-    font-size: 20px;
-    margin-top: 50px;
-    text-decoration: none;
-
-}
 #image2{
     margin-top: 500px;
 }
@@ -428,79 +392,5 @@ background: linear-gradient(140deg, rgba(39,96,160,1) 33%, rgba(99,105,111,1) 45
 @keyframes animated-cursor{
   from{border-right-color: rgba(248, 248, 248, 0.75);}
   to{border-right-color: transparent;}
-}
-.DSA {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    width: 95%;
-    height: 80vh;
-    margin-top: 200px;
-    flex-direction: row;
-}
-
-#img3{
-    width: 600px;
-    height: 600px;
-    max-width: 90%;
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    margin-left: 700px;
-
-}
-.DSA_content{
-    width: 600px;
-    height: 600px;
-    margin-left: 100px;
-    margin-top: -500px;
-
-
-}
-
-.DSA_content h4{
-    color: #71E5FF;
-    font-size: 20px;
-}
-.DSA_content h1{
-    font-size: 32px;
-background: rgb(91,77,179);
-background: linear-gradient(140deg, rgba(91,77,179,1) 33%, rgba(85,58,147,1) 45%, rgba(96,51,218,1) 69%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-
-.DSA_content p{
-    background: rgb(214,217,219);
-    background: linear-gradient(140deg, rgba(214,217,219,1) 46%, rgba(235,235,235,1) 69%);
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-size: 16px;
-    margin-top: 50px;
-    -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.DSA_content h3{
-    color: #71E5FF;
-    font-size: 20px;
-    margin-top: 50px;
-    text-decoration: none;
-
-}
-#image2 {
-    margin-top: 500px;
-}
-
-.DSA_content h5{
-
-    font-size: 18px;
-    margin-left: 170px;
-    margin-top: -50px;
-    background: rgb(19,93,176);
-background: linear-gradient(140deg, rgba(19,93,176,1) 46%, rgba(28,58,98,1) 69%);
-       -webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 }
 
