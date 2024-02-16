@@ -4,9 +4,7 @@ background: linear-gradient(140deg, rgba(19,15,19,1) 30%, rgba(13,9,13,1) 46%);
   }
 
 #welcome {
-  /*background: linear-gradient(to right top, #6305dd, #390281);*/
 
-  /*background: rgb(19,15,19);*/
   background: linear-gradient(140deg, rgba(19,15,19,1) 30%, rgba(13,9,13,1) 46%);
   padding: 6rem 12%;
 }
@@ -44,14 +42,12 @@ background: linear-gradient(140deg, rgba(19,15,19,1) 30%, rgba(13,9,13,1) 46%);
 }
 
 #latest-posts {
-/*background: rgb(19,15,19);*/
-/*background: linear-gradient(140deg, rgba(19,15,19,1) 30%, rgba(13,9,13,1) 46%);*/
+
 
     padding: 2rem;
-  /*border-radius: 12px;*/
   width: 60rem;
   margin: 6rem auto 2rem auto;
-  /*box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);*/
+
 }
 
 #latest-posts h2 {
@@ -103,29 +99,6 @@ background: linear-gradient(140deg, rgba(19,15,19,1) 30%, rgba(13,9,13,1) 46%);
 
 
 
-.FlexContainer4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 85%;
-    /*background-color: #2f1d58;*/
-    height: 50vh;
-    max-height: 90vh;
-    overflow: auto;
-    flex-direction: row;
-    margin-top: 50px;
-    margin-left: 150px;
-}
-
-.FlexContainer4 div {
-    width: 180px;
-    height: 150px;
-    margin: 7px;
-background: rgb(9, 8, 8);
-background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1) 100%);
-}
 
 
 
@@ -320,19 +293,6 @@ background: linear-gradient(140deg, rgba(227,227,227,1) 100%, rgba(158,187,216,1
   transform: translateY(0px);
 }
 
-.gpt3 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 95%;
-
-    height: 80vh;
-    margin-top: 200px;
-    /*overflow: auto;*/
-    flex-direction: row;
-}
 
 
 

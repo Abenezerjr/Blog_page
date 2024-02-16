@@ -176,8 +176,7 @@ background: linear-gradient(140deg, rgba(18,44,69,1) 38%, rgba(50,50,94,1) 78%);
   color: #130f0f;
 
   border-radius: 12px;
-  /*background-color: white;*/
-  /*box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);*/
+
   padding: 1rem 2rem;
 }
 
@@ -257,7 +256,5 @@ background: linear-gradient(140deg, rgba(18,44,69,1) 38%, rgba(50,50,94,1) 78%);
   height: 60rem;
   margin-top: -350px;
   border-radius: 12px;
-
-
 
 }
